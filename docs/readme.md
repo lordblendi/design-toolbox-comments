@@ -4,7 +4,7 @@ Comments component of the TenForce design toolbox.
 
 ## CSS
 
-This component is using [one](https://github.com/tenforce/design-toolbox-comments/blob/master/docs/sass/toolbox-comments.scss) CSS file.
+This component is using [one](https://github.com/tenforce/design-toolbox-comments/blob/master/docs/sass/style.scss) CSS file.
 
 ## HTML structure
 
@@ -13,8 +13,8 @@ The Design documentation was built in Jekyll using SASS and Liquid. This is stil
 ## Usage
 ### Links to CSS files
 - main CSS
-  - [built](https://tenforce.github.io/design-toolbox-comments/sass/toolbox-comments.css)
-  - [raw](https://github.com/tenforce/design-toolbox-comments/blob/master/docs/sass/toolbox-comments.scss)
+  - [built](https://tenforce.github.io/design-toolbox-comments/sass/style.css)
+  - [raw](https://github.com/tenforce/design-toolbox-comments/blob/master/docs/sass/style.scss)
 
 ### Jekyll
 Add [the content of this file](https://github.com/tenforce/design-toolbox-comments/tree/master/docs/import/include-comments.html) to the another Jekyll project to include files from this project.
