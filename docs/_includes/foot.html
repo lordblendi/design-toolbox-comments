@@ -1,0 +1,29 @@
+{% comment %} field {% endcomment %}
+  {% assign location = "https://tenforce.github.io/design-toolbox-field" %}
+  {% comment %}
+    {% if site.url contains "localhost" %}
+      {% assign location = "http://localhost:4013" %}
+    {% endif %}
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ location }}/sass/toolbox-field.css">
+  <script type="text/javascript" src="{{location}}/scripts/components/toolbox-field.js"></script>
+
+{% comment %} table {% endcomment %}
+  {% assign location = "https://tenforce.github.io/design-toolbox-table" %}
+  {% comment %}
+    {% if site.url contains "localhost" %}
+      {% assign location = "http://localhost:4014" %}
+    {% endif %}
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ location }}/sass/toolbox-table.css">
+
+{% comment %} selector {% endcomment %}
+  {% assign location = "https://tenforce.github.io/design-toolbox-selector" %}
+  {% comment %}
+    {% if site.url contains "localhost" %}
+      {% assign location = "http://localhost:4011" %}
+    {% endif %}
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ location }}/sass/toolbox-selector.css">
+  <link rel="stylesheet" href="{{ location }}/sass/toolbox-selector-draggable.css">
+  <script type="text/javascript" src="{{location}}/scripts/components/toolbox-selector.js"></script>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us" class="antialiased">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body style="background-color: #FFF;">
+    <div class="toolbox-overlay"></div>
+    {% comment %} jQuery {% endcomment %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    {{ content }}
+
+
+    {% include foot.html %}
+
+    {% comment %} Components {% endcomment %}
+    <script type="text/javascript" src="{{ site.baseurl }}/scripts/components/toolbox-comments.js"></script>
+  </body>
+</html>
