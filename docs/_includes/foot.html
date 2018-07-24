@@ -1,3 +1,20 @@
+{% comment %} DEFAULT {% endcomment %}
+  {% assign location = "https://tenforce.github.io/design-toolbox-default-css" %}
+  {% comment %}
+    {% if site.url contains "localhost" %}
+      {% assign location = "http://localhost:4010" %}
+    {% endif %}
+  {% endcomment %}
+
+  {% comment %} jQuery {% endcomment %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  {% comment %} CDN OR USED PLUGINS NOT MADE BY US {% endcomment %}
+  {% comment %} cdn for animations {% endcomment %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2/velocity.ui.min.js"></script>
+  {% comment %} components {% endcomment %}
+  <script src="{{ location }}/scripts/components/toolbox-overlay.js"></script>
+
 {% comment %} field {% endcomment %}
   {% assign location = "https://tenforce.github.io/design-toolbox-field" %}
   {% comment %}
